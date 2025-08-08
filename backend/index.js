@@ -22,7 +22,7 @@ const __dirname = path.resolve();
 
 const allowedOrigins = [
   "http://localhost:5173", //, // local development
-  "https://smart-chat-iota.vercel.app/", // deployed frontend
+  "https://smart-chat-iota.vercel.app", // deployed frontend
 ];
 
 app.use(express.json());
