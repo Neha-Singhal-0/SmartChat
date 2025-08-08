@@ -20,11 +20,9 @@ const __dirname = path.resolve();
 //   credentials: true,
 // });
 
-
-
 const allowedOrigins = [
-  "http://localhost:5173"//, // local development
-  // "https://smart-chat-jet.vercel.app", // deployed frontend
+  "http://localhost:5173", //, // local development
+  "https://smart-chat-iota.vercel.app/", // deployed frontend
 ];
 
 app.use(express.json());
