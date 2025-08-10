@@ -11,8 +11,8 @@ export const generateToken = (userId, res) => {
      sameSite: process.env.NODE_ENV === "production" ? "None" : "Lax",
      secure: process.env.NODE_ENV === "production",
     // sameSite: "strict", // CSRF attacks cross-site request forgery attacks
-    sameSite: "None",
-    secure: true, // ✅ only true on Render
+    //sameSite: "None",
+   // secure: true, // ✅ only true on Render
     // secure: process.env.NODE_ENV !== "development",
   });
 
